@@ -6,12 +6,12 @@
    <elementGuidId>6e357e87-2694-4c89-841e-851184a51ea4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mui-2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mui-2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mui-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

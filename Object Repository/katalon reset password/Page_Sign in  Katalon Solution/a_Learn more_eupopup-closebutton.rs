@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Learn more_eupopup-closebutton</name>
    <tag></tag>
-   <elementGuidId>48fdfca2-3ef4-444a-b756-83382d35cd6b</elementGuidId>
+   <elementGuidId>14de9f18-2974-4563-84cb-31222b5feff1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

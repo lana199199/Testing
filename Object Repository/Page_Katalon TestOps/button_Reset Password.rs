@@ -6,12 +6,12 @@
    <elementGuidId>dcd10cc5-900f-4145-8e46-e75cc3d0ab8e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.MuiButton-disableElevation.MuiButtonBase-root.css-1hhthid</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='submit'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeLarge.MuiButton-textSizeLarge.MuiButton-disableElevation.MuiButtonBase-root.css-1hhthid</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

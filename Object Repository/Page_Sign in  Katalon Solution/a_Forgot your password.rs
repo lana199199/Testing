@@ -6,12 +6,12 @@
    <elementGuidId>d132c075-b07e-4609-91bf-5446659d85db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.policy > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='hs_cos_wrapper_module_71538058904']/div[3]/div/form/div[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.policy > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

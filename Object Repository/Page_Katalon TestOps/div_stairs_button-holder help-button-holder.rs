@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Learn more_eupopup-closebutton</name>
+   <name>div_stairs_button-holder help-button-holder</name>
    <tag></tag>
-   <elementGuidId>48fdfca2-3ef4-444a-b756-83382d35cd6b</elementGuidId>
+   <elementGuidId>c12753d0-e8fb-4a81-b2eb-325d2871c8a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@href, '#')])[18]</value>
+         <value>//div[@id='rc-imageselect']/div[3]/div[2]/div/div/div[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.eupopup-closebutton</value>
+         <value>div.button-holder.help-button-holder</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,48 +21,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>eupopup-closebutton</value>
+      <value>button-holder help-button-holder</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;no-banner&quot;]/div[2]/div[@class=&quot;eupopup-container eupopup-container-bottomright eupopup-color-default&quot;]/a[@class=&quot;eupopup-closebutton&quot;]</value>
+      <value>id(&quot;rc-imageselect&quot;)/div[@class=&quot;rc-footer&quot;]/div[@class=&quot;rc-controls&quot;]/div[@class=&quot;primary-controls&quot;]/div[@class=&quot;rc-buttons&quot;]/div[@class=&quot;button-holder help-button-holder&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Katalon TestOps/iframe_html1body1div6div4iframe1_c-h6ulnuc6kdcz</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[18]</value>
+      <value>//div[@id='rc-imageselect']/div[3]/div[2]/div/div/div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '#']</value>
+      <value>//div[2]/div/div/div[4]</value>
    </webElementXpaths>
 </WebElementEntity>

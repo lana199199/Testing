@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>a_Forgot your password</name>
    <tag></tag>
-   <elementGuidId>96b6c5c0-de9a-4d86-899d-4429d73b432a</elementGuidId>
+   <elementGuidId>6b01de0c-af46-4a2e-ae8b-1942a6a049af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Close search'])[1]/following::button[1]</value>
+         <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.slds-button.slds-button_neutral.comm-user-profile-menu__login-button</value>
+         <value>div.jss23.MuiCardActions-root.css-p0pzb2 > a.MuiTypography-root.MuiTypography-inherit.MuiLink-root.MuiLink-underlineHover.css-h33x35</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>slds-button slds-button_neutral comm-user-profile-menu__login-button</value>
+      <value>MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-h33x35</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>href</name>
       <type>Main</type>
-      <value>Log in</value>
+      <value>/login?view=forgot_password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
+      <value>Forgot your password?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;null comm-page-home&quot;]/div[@class=&quot;themeLayoutStarterWrapper isHeroUnderHeader-false isHeaderPinned-true siteforceThemeLayoutStarter&quot;]/div[@class=&quot;header&quot;]/div[1]/div[@class=&quot;ui-widget&quot;]/div[@class=&quot;themeHeader forceCommunityThemeHeaderBase forceCommunityThemeHeaderCompact&quot;]/div[@class=&quot;themeHeaderInner centerAlignLogo-false showNavMenuOnLeft-true searchStyle-expanded&quot;]/div[@class=&quot;themeUtils&quot;]/div[@class=&quot;themeUtilsContainer&quot;]/div[@class=&quot;themeUtil themeProfileMenu&quot;]/div[1]/div[@class=&quot;ui-widget&quot;]/div[1]/community_user-user-profile-menu[@class=&quot;comm-user-profile-menu&quot;]/button[@class=&quot;slds-button slds-button_neutral comm-user-profile-menu__login-button&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;jss1&quot;]/div[@class=&quot;jss13&quot;]/div[@class=&quot;jss18&quot;]/div[@class=&quot;jss19&quot;]/div[@class=&quot;jss20 MuiBox-root css-0&quot;]/div[@class=&quot;jss23 MuiCardActions-root css-p0pzb2&quot;]/a[@class=&quot;MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineHover css-h33x35&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close search'])[1]/following::button[1]</value>
+      <value>//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Forgot your password?')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quality Matters'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dear beloved Katalon Users:'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Forgot your password?']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/login?view=forgot_password')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//community_user-user-profile-menu/button</value>
+      <value>//div[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@title = 'Log in' and (text() = 'Log in' or . = 'Log in')]</value>
+      <value>//a[@href = '/login?view=forgot_password' and (text() = 'Forgot your password?' or . = 'Forgot your password?')]</value>
    </webElementXpaths>
 </WebElementEntity>

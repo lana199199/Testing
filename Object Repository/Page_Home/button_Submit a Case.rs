@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>button_Submit a Case</name>
    <tag></tag>
-   <elementGuidId>96b6c5c0-de9a-4d86-899d-4429d73b432a</elementGuidId>
+   <elementGuidId>2ea60e4e-e28d-4188-a046-715427c6f23d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Close search'])[1]/following::button[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='support@katalon.com'])[1]/following::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.slds-button.slds-button_neutral.comm-user-profile-menu__login-button</value>
+         <value>button.contactSupportButton.slds-button.stylingOverrideHook_43a.forceCommunityContactSupportButton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,69 +28,83 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>slds-button slds-button_neutral comm-user-profile-menu__login-button</value>
+      <value>contactSupportButton slds-button stylingOverrideHook_43a forceCommunityContactSupportButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>data-aura-rendered-by</name>
       <type>Main</type>
-      <value>Log in</value>
+      <value>6:3;a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-class</name>
+      <type>Main</type>
+      <value>forceCommunityContactSupportButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
+      <value>Submit a Case</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;null comm-page-home&quot;]/div[@class=&quot;themeLayoutStarterWrapper isHeroUnderHeader-false isHeaderPinned-true siteforceThemeLayoutStarter&quot;]/div[@class=&quot;header&quot;]/div[1]/div[@class=&quot;ui-widget&quot;]/div[@class=&quot;themeHeader forceCommunityThemeHeaderBase forceCommunityThemeHeaderCompact&quot;]/div[@class=&quot;themeHeaderInner centerAlignLogo-false showNavMenuOnLeft-true searchStyle-expanded&quot;]/div[@class=&quot;themeUtils&quot;]/div[@class=&quot;themeUtilsContainer&quot;]/div[@class=&quot;themeUtil themeProfileMenu&quot;]/div[1]/div[@class=&quot;ui-widget&quot;]/div[1]/community_user-user-profile-menu[@class=&quot;comm-user-profile-menu&quot;]/button[@class=&quot;slds-button slds-button_neutral comm-user-profile-menu__login-button&quot;]</value>
+      <value>/html[1]/body[@class=&quot;null comm-page-home&quot;]/div[@class=&quot;themeLayoutStarterWrapper isHeroUnderHeader-false isHeaderPinned-true siteforceThemeLayoutStarter&quot;]/div[@class=&quot;body isPageWidthFixed-true&quot;]/div[@class=&quot;siteforceSldsThreeCol444Layout siteforceContentArea&quot;]/div[@class=&quot;slds-col--padded comm-content-header comm-layout-column&quot;]/div[1]/div[@class=&quot;ui-widget&quot;]/button[@class=&quot;contactSupportButton slds-button stylingOverrideHook_43a forceCommunityContactSupportButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close search'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='support@katalon.com'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quality Matters'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For more information, or if you have any questions, please contact us via email at'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dear beloved Katalon Users:'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Started'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Support Service'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Submit a Case']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//community_user-user-profile-menu/button</value>
+      <value>//div[4]/div/div/div/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@title = 'Log in' and (text() = 'Log in' or . = 'Log in')]</value>
+      <value>//button[(text() = 'Submit a Case' or . = 'Submit a Case')]</value>
    </webElementXpaths>
 </WebElementEntity>

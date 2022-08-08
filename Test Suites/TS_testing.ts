@@ -21,6 +21,6 @@
       <guid>c3fa1722-ad74-4ad0-b56c-39945b5e5a5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reset Password</testCaseId>
+      <testCaseId>Test Cases/Reset Password_later</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

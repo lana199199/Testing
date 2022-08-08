@@ -19,21 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalonsupport.force.com/katalonhelpcenter/s/')
+WebUI.navigateToUrl('https://katalon.com/')
+
+WebUI.delay(10)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Home/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login/span_Katalon Account'))
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Sign in  Katalon Solution/a_Forgot your password'), 10)
+
+WebUI.click(findTestObject('Object Repository/Page_Sign in  Katalon Solution/a_Forgot your password'))
+
+WebUI.switchToWindowTitle('Katalon TestOps')
 
 WebUI.setText(findTestObject('Object Repository/Page_Katalon TestOps/input_Email_email'), 'thanh.pnguyen@katalon.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Katalon TestOps/input_Password_password'), 'liCxamlDPm0KSJjgB8sjDw==')
+WebUI.delay(25)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Katalon TestOps/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_Katalon TestOps/div_id(katalon-rec_elementInfoDiv) (2)'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Home/button_Submit a Case'), 5)
+WebUI.click(findTestObject('Object Repository/Page_Katalon TestOps/div_stairs_button-holder help-button-holder'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_Katalon TestOps/button_Reset Password'))
 

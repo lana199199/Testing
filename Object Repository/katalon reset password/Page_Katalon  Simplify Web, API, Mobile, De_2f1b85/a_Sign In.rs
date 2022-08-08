@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Sign In</name>
    <tag></tag>
-   <elementGuidId>8bb38515-34f3-4046-b152-8dd1cf0e4e8e</elementGuidId>
+   <elementGuidId>f73a5b0d-570e-46ab-afd8-07393dea405e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -17,17 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/katalon reset password/Page_Katalon TestOps/div_reCAPTCHA_recaptcha-checkbox-border'))
 
-WebUI.navigateToUrl('https://katalon.com/')
+WebUI.verifyElementPresent(findTestObject('Object Repository/katalon reset password/Page_Katalon TestOps/div_stairs_button-holder help-button-holder'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Sign In'))
-
-WebUI.click(findTestObject('Object Repository/Page_Sign in  Katalon Solution/a_Learn more_eupopup-closebutton'))
-
-WebUI.click(findTestObject('Object Repository/Page_Sign in  Katalon Solution/a_Forgot your password'))
-
-WebUI.switchToWindowTitle('Katalon TestOps')
-
-WebUI.setText(findTestObject('Object Repository/Page_Katalon TestOps/input_Email_email (1)'), 'thanh.pnguyen@katalon.com')
+WebUI.click(findTestObject('Object Repository/katalon reset password/Page_Katalon TestOps/div_id(katalon-rec_elementInfoDiv) (1)'))
 
