@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_testing,Chrome 103.0.5060.134,,,2022-08-07 14:50:30,2022-08-07 14:51:28,58.160s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 103.0.5060.134,,,2022-08-07 14:50:30,2022-08-07 14:50:51,20.851s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-07 14:50:31,2022-08-07 14:50:35,3.661s,PASSED
+"navigateToUrl(""https://katalonsupport.force.com/katalonhelpcenter/s/"")",Chrome 103.0.5060.134,,,2022-08-07 14:50:35,2022-08-07 14:50:38,3.662s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/button_Log in""))",Chrome 103.0.5060.134,,,2022-08-07 14:50:38,2022-08-07 14:50:41,2.757s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/span_Katalon Account""))",Chrome 103.0.5060.134,,,2022-08-07 14:50:41,2022-08-07 14:50:44,2.383s,PASSED
+"setText(findTestObject(""Object Repository/Page_Katalon TestOps/input_Email_email""), ""thanh.pnguyen@katalon.com"")",Chrome 103.0.5060.134,,,2022-08-07 14:50:44,2022-08-07 14:50:50,6.623s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Katalon TestOps/input_Password_password""), ""liCxamlDPm0KSJjgB8sjDw=="")",Chrome 103.0.5060.134,,,2022-08-07 14:50:50,2022-08-07 14:50:51,0.591s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Katalon TestOps/input_Password_password""), Keys.chord(ENTER))",Chrome 103.0.5060.134,,,2022-08-07 14:50:51,2022-08-07 14:50:51,0.481s,PASSED
+,,,,,,,
+Test Cases/Reset Password,Chrome 103.0.5060.134,,,2022-08-07 14:50:51,2022-08-07 14:51:28,36.790s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-07 14:50:52,2022-08-07 14:50:54,2.082s,PASSED
+"navigateToUrl(""https://katalon.com/"")",Chrome 103.0.5060.134,,,2022-08-07 14:50:54,2022-08-07 14:51:01,6.736s,PASSED
+"click(findTestObject(""Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Sign In""))",Chrome 103.0.5060.134,,,2022-08-07 14:51:01,2022-08-07 14:51:04,2.613s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign in  Katalon Solution/a_Learn more_eupopup-closebutton""))",Chrome 103.0.5060.134,,,2022-08-07 14:51:04,2022-08-07 14:51:04,0.703s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign in  Katalon Solution/a_Forgot your password""))",Chrome 103.0.5060.134,,,2022-08-07 14:51:04,2022-08-07 14:51:05,0.448s,PASSED
+"switchToWindowTitle(""Katalon TestOps"")",Chrome 103.0.5060.134,,,2022-08-07 14:51:05,2022-08-07 14:51:27,22.395s,PASSED
+"setText(findTestObject(""Object Repository/Page_Katalon TestOps/input_Email_email (1)""), ""thanh.pnguyen@katalon.com"")",Chrome 103.0.5060.134,,,2022-08-07 14:51:27,2022-08-07 14:51:28,1.008s,PASSED

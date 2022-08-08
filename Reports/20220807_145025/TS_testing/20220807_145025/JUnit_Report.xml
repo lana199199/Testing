@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_testing" time="58.16" tests="2" failures="0" errors="0">
+   <testsuite name="TS_testing" tests="2" failures="0" errors="0" time="58.16" skipped="0" timestamp="2022-08-07 14:50:30" hostname="revenue - 172.30.47.175" id="Test Suites/TS_testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\revenue\\Desktop\\CS_Thanh\\Git Testing\\Reports\\20220807_145025\\TS_testing\\20220807_145025"/>
+         <property name="logFiles" value="C:\\Users\\revenue\\Desktop\\CS_Thanh\\Git Testing\\Reports\\20220807_145025\\TS_testing\\20220807_145025\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="revenue - 172.30.47.175"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.134"/>
+         <property name="hostAddress" value="172.30.47.175"/>
+         <property name="sessionId" value="50ad621b537b56d83e173128b35c7cbb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="20.851" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-08-07 14:50:30 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-08-07 14:50:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-07 14:50:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-07 14:50:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-07 14:50:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-07 14:50:35 - [TEST_STEP][PASSED] - navigateToUrl("https://katalonsupport.force.com/katalonhelpcenter/s/"): Navigate to 'https://katalonsupport.force.com/katalonhelpcenter/s/' successfully
+
+2022-08-07 14:50:38 - [MESSAGE][PASSED] - Navigate to 'https://katalonsupport.force.com/katalonhelpcenter/s/' successfully
+
+2022-08-07 14:50:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/button_Log in")): Object: 'Object Repository/Page_Home/button_Log in' is clicked on
+
+2022-08-07 14:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/button_Log in' is clicked on
+
+2022-08-07 14:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/span_Katalon Account")): Object: 'Object Repository/Page_Login/span_Katalon Account' is clicked on
+
+2022-08-07 14:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_Katalon Account' is clicked on
+
+2022-08-07 14:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalon TestOps/input_Email_email"), "thanh.pnguyen@katalon.com"): Text 'thanh.pnguyen@katalon.com' is set on object 'Object Repository/Page_Katalon TestOps/input_Email_email'
+
+2022-08-07 14:50:50 - [MESSAGE][PASSED] - Text 'thanh.pnguyen@katalon.com' is set on object 'Object Repository/Page_Katalon TestOps/input_Email_email'
+
+2022-08-07 14:50:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Katalon TestOps/input_Password_password"), "liCxamlDPm0KSJjgB8sjDw=="): Text ****** has been set on object 'Object Repository/Page_Katalon TestOps/input_Password_password'
+
+2022-08-07 14:50:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Katalon TestOps/input_Password_password'
+
+2022-08-07 14:50:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Katalon TestOps/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Katalon TestOps/input_Password_password'
+
+2022-08-07 14:50:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Katalon TestOps/input_Password_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reset Password" time="36.79" classname="Test Cases/Reset Password" status="PASSED">
+         <system-out><![CDATA[2022-08-07 14:50:51 - [TEST_CASE][PASSED] - Test Cases/Reset Password: Test Cases/Reset Password
+
+2022-08-07 14:50:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-07 14:50:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-07 14:50:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-07 14:50:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-07 14:50:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-07 14:50:54 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon.com/"): Navigate to 'https://katalon.com/' successfully
+
+2022-08-07 14:51:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon.com/' successfully
+
+2022-08-07 14:51:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Sign In")): Object: 'Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Sign In' is clicked on
+
+2022-08-07 14:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Sign In' is clicked on
+
+2022-08-07 14:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Solution/a_Learn more_eupopup-closebutton")): Object: 'Object Repository/Page_Sign in  Katalon Solution/a_Learn more_eupopup-closebutton' is clicked on
+
+2022-08-07 14:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Solution/a_Learn more_eupopup-closebutton' is clicked on
+
+2022-08-07 14:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign in  Katalon Solution/a_Forgot your password")): Object: 'Object Repository/Page_Sign in  Katalon Solution/a_Forgot your password' is clicked on
+
+2022-08-07 14:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Katalon Solution/a_Forgot your password' is clicked on
+
+2022-08-07 14:51:05 - [TEST_STEP][PASSED] - switchToWindowTitle("Katalon TestOps"): Switched to window with title: 'Katalon TestOps'
+
+2022-08-07 14:51:27 - [MESSAGE][PASSED] - Switched to window with title: 'Katalon TestOps'
+
+2022-08-07 14:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Katalon TestOps/input_Email_email (1)"), "thanh.pnguyen@katalon.com"): Text 'thanh.pnguyen@katalon.com' is set on object 'Object Repository/Page_Katalon TestOps/input_Email_email (1)'
+
+2022-08-07 14:51:28 - [MESSAGE][PASSED] - Text 'thanh.pnguyen@katalon.com' is set on object 'Object Repository/Page_Katalon TestOps/input_Email_email (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-07 14:50:30 - [TEST_SUITE][PASSED] - TS_testing: Test Cases/Reset Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Katalon TestOps/iframe_Email_a-b0nwwhul5x3s",
+      "brokenLocator": "//iframe[@name\u003d\u0027a-b0nwwhul5x3s\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027forgot-password-form\u0027]/div[2]/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Katalon TestOps/iframe_Email_a-b0nwwhul5x3s_idRelative.png"
+    }
+  ]
+}
