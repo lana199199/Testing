@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalonsupport.force.com/katalonhelpcenter/s/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Page_Home/button_Log in'))
 
 WebUI.click(findTestObject('Object Repository/Page_Login/span_Katalon Account'))
